@@ -1,4 +1,4 @@
-* {
+/** {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -27,6 +27,71 @@ a {
 
 a {
     color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+}*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    /* Professional Blue-Gray Palette */
+    --primary-dark: #2c3e50;       /* Dark blue-gray */
+    --primary-color: #34495e;      /* Slightly lighter blue-gray */
+    --primary-light: #7f8c8d;      /* Medium gray */
+    --text-color: #2c3e50;         /* Dark text */
+    --text-light: #95a5a6;         /* Light gray text */
+    --bg-color: #ecf0f1;           /* Very light gray background */
+    --card-bg: #ffffff;            /* White cards */
+    --border-color: #bdc3c7;       /* Light gray border */
+    --accent-color: #3498db;       /* Blue accent */
+    --hover-color: #2980b9;        /* Darker blue for hover */
+    --primary-black: #000000;      /* Black */
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+    color: var(--primary-dark);
+    font-weight: 600;
+}
+
+a {
+    color: var(--primary-black);
+    text-decoration: none;
+}
+
+
+a {
+    color: var(--primary-black);
     text-decoration: none;
 }
 

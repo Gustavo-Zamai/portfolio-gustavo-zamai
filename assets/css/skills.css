@@ -1,42 +1,71 @@
 .skills {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
-.tools ul{
+.tools, .personal {
+    flex: 1;
+    min-width: 300px;
+}
+
+.tools h3, .personal h3 {
+    color: var(--primary-dark);
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.tools ul {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
     flex-wrap: wrap;
-    margin: 1rem 0;
-    padding: 0;
+    gap: 1.25rem;
     list-style: none;
+    padding: 0;
+}
+
+.tools ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .tools ul li img {
-    max-width: 50px;
-    min-width: 50px;
-    max-height: 50px;
-    min-height: 50px;
-    margin: 0 .5rem;
+    width: 48px;
+    height: 48px;
+    transition: all 0.2s ease;
+}
+
+.tools ul li span {
+    font-size: 0.8rem;
+    color: var(--primary-light);
+}
+
+.tools ul li img:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
 }
 
 .personal ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    margin:0;
+    list-style: none;
     padding: 0;
 }
 
 .personal ul li {
-    margin-left: 2rem;
-    padding: .5rem;
+    margin-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--primary-color);
 }
 
+.personal ul li::before {
+    content: "▹";
+    color: var(--accent-color);
+    position: absolute;
+    left: 0;
+}
 
 
 @media only screen and (min-width: 768px) {
