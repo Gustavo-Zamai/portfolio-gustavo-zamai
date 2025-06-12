@@ -1,66 +1,73 @@
-<h1 align="center">Portfólio Online</h1>
+# 📄 Online Portfolio
+
+A responsive online portfolio project to showcase professional skills, languages, work experience, and useful links like LinkedIn and GitHub.
 
 <p align="center">
-Projeto de um currículo online, contendo skills, idiomas, experiências profissionais e link úteis para portfólio. <br/>
+  <img src=".github/preview.png" alt="Project Preview" width="100%">
 </p>
 
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-aprendizado">Aprendizado</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
-</p>
+---
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
+## ✨ Features
 
-<br>
+- Display of personal and professional information
+- Highlight of technical skills and languages
+- Responsive layout for multiple devices
+- Integration with external links (GitHub, LinkedIn, etc.)
 
-<p align="center">
-  <img alt="Projeto CUrrículo Online" src=".github/preview.png" width="100%">
-</p>
+---
 
-## 🚀 Tecnologias
+## 🚀 Technologies Used
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
-- HTML e CSS
+- HTML5
+- CSS3
 - JavaScript
-- API
-- Git e Github
-
-
-## 💻 Projeto
-
-O Projeto do currículo online agrega habilidades, idiomas, experiências profissionais, além de links úteis para mostrar o portfólio.
-
-[Acesse o projeto finalizado, online](https://gustavo-zamai.github.io/Portfolio-Gustavo-Zamai/)
-
----
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [Desse Link](https://www.figma.com/file/g6zA6klLrCWZAp76tzoVJZ/Portfolio---EDUCATION?type=design&node-id=0-1&mode=design&t=6kIyAoDFVoVazTc1-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-
-
----
-## 📑 Aprendizado
-
-O projeto foi feito usando o Mobile First para evitar a escrita de tanto código em CSS e melhorar a responsividade das telas. Também utilizei Media Queries para os comportamentos se adequarem aos diferentes tamanhos de telas.</br>
-Foi utilizado o  conceito de background em gradiente e animations, através do Key Frame.</br>
-Foi utilizada a API do Github para gerar informações de forma dinâmica.</br>
-Foram utilizadas Promises e funções assíncronas.</br>
-E o github foi utilizado para que a API fosse consumida com os dados corretos.
-
-
+- Git & GitHub
+- Figma
+- API Integration
 
 ---
 
-## 📝 Licença
+## 📁 Project Structure
 
-Esse projeto está sob a licença MIT.
+```yaml
+portfolio-gustavo-zamai/
+├── index.html          # Main HTML structure
+├── assets/
+│     ├── css/          # CSS files
+│     ├── images/       # images and icons
+│     ├── js/           # JS files
+├── .github/
+│ └── preview.png       # Project preview image
+└── README.md           # Project documentation
+```
 
 ---
 
-Feito com ♥ por Gustavo Zamai
+## ▶️ How to Use
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Gustavo-Zamai/portfolio-gustavo-zamai.git
+```
+Open index.html in your browser.
+
+That's it — no setup needed!
+
+## 📚 What I Learned
+- Writing semantic and structured HTML
+- Creating responsive layouts using CSS
+- Enhancing pages with basic JavaScript 
+- Working with version control using Git
+- Consume data froma JSON file
+
+## 📝 License
+
+This project is licensed under the MIT License. Feel free to use and modify it as needed.
+
+## 👤 Author
+#### Gustavo Zamai
+
+[LinkedIn](https://www.linkedin.com/in/gustavo-sim%C3%A3o-zamai-664a5521a/) • 
+[GitHub](https://github.com/Gustavo-Zamai)
+
