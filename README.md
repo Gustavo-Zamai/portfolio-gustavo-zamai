@@ -4,6 +4,7 @@ A responsive online portfolio project to showcase professional skills, languages
 
 <p align="center">
   <img src=".github/preview.png" alt="Project Preview" width="100%">
+  <img src=".github/dark-mode.png" alt="Dark Mode Project" width="100%">
 </p>
 
 ---
@@ -14,6 +15,7 @@ A responsive online portfolio project to showcase professional skills, languages
 - Highlight of technical skills and languages
 - Responsive layout for multiple devices
 - Integration with external links (GitHub, LinkedIn, etc.)
+- Toggle theme between light and dark
 
 ---
 
@@ -46,13 +48,21 @@ portfolio-gustavo-zamai/
 
 ## ▶️ How to Use
 
-1. Clone the repository:
+#### 1. Clone the repository:
 ```bash
 git clone https://github.com/Gustavo-Zamai/portfolio-gustavo-zamai.git
+cd portfolio-gustavo-zamai
 ```
-Open index.html in your browser.
+#### 2. Open index.html in your browser:
 
-That's it — no setup needed!
+```bash
+start index.html      # On Windows
+# or
+open index.html       # On macOS
+# or
+xdg-open index.html   # On Linux
+# No installation required — it's a fully static front-end game!
+```
 
 ## 📚 What I Learned
 - Writing semantic and structured HTML
@@ -60,6 +70,7 @@ That's it — no setup needed!
 - Enhancing pages with basic JavaScript 
 - Working with version control using Git
 - Consume data froma JSON file
+- Create dark mode function
 
 ## 📝 License
 
