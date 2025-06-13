@@ -1,121 +1,122 @@
 .professional-experience {
-    list-style: none;
-    padding: 0;
-    position: relative;
+  list-style: none;
+  padding: 0;
+  position: relative;
 }
 
 .professional-experience li {
-    position: relative;
-    padding-left: 1.75rem;
-    margin-bottom: 2rem;
-    border-left: 2px solid var(--border-color);
-    transition: all 0.3s ease;
+  position: relative;
+  padding-left: 1.75rem;
+  margin-bottom: 2rem;
+  border-left: 2px solid var(--border-color);
+  transition: all 0.3s ease;
 }
 
 .professional-experience li:hover {
-    border-left-color: var(--accent-color);
+  border-left-color: var(--accent-color);
 }
 
 .professional-experience li::before {
-    content: "";
-    position: absolute;
-    left: -8px;
-    top: 5px;
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background-color: var(--card-bg);
-    border: 2px solid var(--accent-color);
-    z-index: 1;
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: var(--card-bg);
+  border: 2px solid var(--accent-color);
+  z-index: 1;
 }
 
 .professional-experience .title {
-    font-size: 1.15rem;
-    color: var(--primary-dark);
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-    line-height: 1.4;
+  font-size: 1.15rem;
+  color: var(--primary-dark);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  line-height: 1.4;
 }
 
 .professional-experience .period {
-    display: inline-block;
-    background-color: #e3f2fd;
-    color: var(--accent-color);
-    padding: 0.25rem 0.75rem;
-    border-radius: 12px;
-    font-size: 0.8rem;
-    font-weight: 500;
-    margin-bottom: 0.75rem;
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  display: inline-block;
+  color: var(--accent-color);
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
 }
 
 .professional-experience p {
-    color: var(--text-color);
-    margin: 0.75rem 0 0;
-    font-size: 0.95rem;
-    line-height: 1.6;
-    background-color: var(--card-bg);
-    padding: 1rem;
-    border-radius: 6px;
-    border: 1px solid var(--border-color);
+  color: var(--text-color);
+  margin: 0.75rem 0 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  background-color: var(--card-bg);
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
 }
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
-    .professional-experience li {
-        padding-left: 1.5rem;
-        margin-bottom: 1.75rem;
-    }
-    
-    .professional-experience .title {
-        font-size: 1.1rem;
-    }
-    
-    .professional-experience p {
-        font-size: 0.9rem;
-        padding: 0.9rem;
-    }
-    
-    .professional-experience .period {
-        font-size: 0.75rem;
-        margin-bottom: 0.5rem;
-    }
+  .professional-experience li {
+    padding-left: 1.5rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .professional-experience .title {
+    font-size: 1.1rem;
+  }
+
+  .professional-experience p {
+    font-size: 0.9rem;
+    padding: 0.9rem;
+  }
+
+  .professional-experience .period {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
 }
 
 @media (max-width: 480px) {
-    .professional-experience li {
-        padding-left: 1.25rem;
-        margin-bottom: 1.5rem;
-        border-left-width: 1px;
-    }
-    
-    .professional-experience li::before {
-        width: 12px;
-        height: 12px;
-        left: -6px;
-        top: 6px;
-    }
-    
-    .professional-experience .title {
-        font-size: 1rem;
-    }
-    
-    .professional-experience p {
-        font-size: 0.85rem;
-        padding: 0.75rem;
-        margin-top: 0.5rem;
-    }
-    
-    .professional-experience .period {
-        padding: 0.2rem 0.6rem;
-        border-radius: 10px;
-    }
+  .professional-experience li {
+    padding-left: 1.25rem;
+    margin-bottom: 1.5rem;
+    border-left-width: 1px;
+  }
+
+  .professional-experience li::before {
+    width: 12px;
+    height: 12px;
+    left: -6px;
+    top: 6px;
+  }
+
+  .professional-experience .title {
+    font-size: 1rem;
+  }
+
+  .professional-experience p {
+    font-size: 0.85rem;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+  }
+
+  .professional-experience .period {
+    padding: 0.2rem 0.6rem;
+    border-radius: 10px;
+  }
 }
 
 /* Special case for very small screens */
 @media (max-width: 360px) {
-    .professional-experience .period {
-        display: block;
-        width: fit-content;
-        margin-top: 0.25rem;
-    }
+  .professional-experience .period {
+    display: block;
+    width: fit-content;
+    margin-top: 0.25rem;
+  }
 }
